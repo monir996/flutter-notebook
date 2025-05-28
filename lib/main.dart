@@ -3,14 +3,15 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-
+// ----------------------- Main Branch  ==> Basic Structure ------------------
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Basics',
+      title: 'Flutter Notebook',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
@@ -24,7 +25,9 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(title: Text("Flutter Notebook"), backgroundColor: Colors.lightGreenAccent),
+    );
   }
 }
 

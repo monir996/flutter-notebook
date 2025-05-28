@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Basics',
+      title: 'Flutter Notebook',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
@@ -24,7 +24,17 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+
+    // ----------------------- Branch 2 ==> Scaffold Class ------------------
+    return Scaffold(
+      appBar: AppBar(title: Text("Scaffold Class")),
+      drawer: ,
+      endDrawer: ,
+      body: ,
+      bottomNavigationBar: ,
+      floatingActionButton: ,
+      bottomSheet: ,
+    );
   }
 }
 

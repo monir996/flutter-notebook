@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-// ----------------------- Main Branch  ==> Basic Structure ------------------
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -25,8 +25,28 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
-      appBar: AppBar(title: Text("Flutter Notebook"), backgroundColor: Colors.lightGreenAccent),
+      appBar: AppBar(title: Text("Column Widget"), backgroundColor: Colors.cyan),
+
+
+      // ----------------------- Branch 5  ==> Column Widget ------------------
+      body: Container(
+        color: Colors.deepPurple,
+
+        child: Column(
+
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.end,
+
+          children: [
+            Container(padding: EdgeInsets.all(20), color: Colors.lightGreenAccent, child: Text("One")),
+            Container(padding: EdgeInsets.all(30), color: Colors.red, child: Text("Two")),
+            Container(padding: EdgeInsets.all(40), color: Colors.pinkAccent, child: Text("Three")),
+          ],
+        ),
+      ),
     );
   }
 }

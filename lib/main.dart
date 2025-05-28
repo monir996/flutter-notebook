@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Basics',
+      title: 'Flutter Notebook',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
@@ -24,7 +24,33 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(title: Text("Row Widget"),backgroundColor: Colors.blue,),
+
+      body: Center(
+        child: Container(
+          height: 300,
+          color: Colors.cyanAccent,
+
+          // ----------------------- Branch 4 ==> Row Widget ------------------
+          child: Row(
+
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisSize: MainAxisSize.max,
+            crossAxisAlignment: CrossAxisAlignment.center,
+
+            children: [
+              Container(color: Colors.white, child: Text("Hello")),
+
+              Container(color: Colors.amber, child: Text("Dart")),
+
+              Container(color: Colors.redAccent, child: Text("Flutter")),
+            ],
+          ),
+        ),
+      ),
+
+    );
   }
 }
 

@@ -9,6 +9,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    // ----------------------- Branch 1 ==> Material App Class ------------------
     return MaterialApp(
 
       title: 'Flutter Notebook',

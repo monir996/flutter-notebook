@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Notebook',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
@@ -27,13 +28,27 @@ class HomeScreen extends StatelessWidget {
 
     // ----------------------- Branch 2 ==> Scaffold Class ------------------
     return Scaffold(
-      appBar: AppBar(title: Text("Scaffold Class")),
-      drawer: ,
-      endDrawer: ,
-      body: ,
-      bottomNavigationBar: ,
-      floatingActionButton: ,
-      bottomSheet: ,
+
+      appBar: AppBar(title: Text("Scaffold Class"), backgroundColor: Colors.pinkAccent,),
+
+      body: Center(child: Text("Flutter Notebook")),
+
+      drawer: Drawer(),
+
+      //endDrawer: Drawer(),
+
+      floatingActionButton: FloatingActionButton(onPressed: (){}, child: Icon(Icons.add),),
+
+      bottomNavigationBar: BottomNavigationBar(
+          items: [
+            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+            BottomNavigationBarItem(icon: Icon(Icons.person_3_rounded), label: "Profile"),
+            BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings"),
+          ]
+      ),
+
+      //bottomSheet: ,
+
     );
   }
 }

@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  // ----------------------- Demo Items Like Json ------------------
+  // ----------------------- Demo Items Like Json -------------------
   var myItems = [
     {"imageUrl": "https://cdn.pixabay.com/photo/2025/04/21/14/54/daisies-9547672_1280.jpg", "title": "Daisy"},
     {"imageUrl": "https://cdn.pixabay.com/photo/2023/06/28/12/43/flower-8094368_1280.jpg", "title": "Hydrangea"},

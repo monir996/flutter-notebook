@@ -14,5 +14,8 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 4. Container Widget | `container-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/container-widget) |
 | ✅ 5. SafeArea Widget | `safe-area-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/safe-area-widget) |
 | ✅ 6. SizedBox Widget | `sized-box-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/sized-box-widget) |
-| ✅ Row Widget | `row-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/row-widget) |
-| ✅ Column Widget | `column-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/column-widget) |
+| ✅ 7. Expanded Widget | `expanded-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/expanded-widget) |
+| ✅ 8. Text Widget | `text-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/text-widget) |
+| ✅ 9. Image Widget | `image-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/image-widget) |
+| ✅ 10. Row Widget | `row-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/row-widget) |
+| ✅ 11. Column Widget | `column-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/column-widget) |

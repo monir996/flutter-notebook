@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook/fragments/HomeFragment.dart';
+import 'package:flutter_notebook/fragments/ProfileFragment.dart';
+import 'package:flutter_notebook/fragments/SettingsFragment.dart';
 
 void main() {
   runApp(const MyApp());
 }
-// ----------------------- Main Branch  ==> Basic Structure ------------------
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -25,8 +28,34 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("Flutter Notebook"), backgroundColor: Colors.lightGreenAccent),
+
+    // ----------------------- Branch 12 ==> TabBar Widget ------------------
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+
+        appBar: AppBar(
+            title: Text("TabBar Widget"),
+            backgroundColor: Colors.lightGreenAccent,
+            centerTitle: true,
+
+            bottom: TabBar(
+                //isScrollable: true,
+                tabs: [
+                  Tab(icon: Icon(Icons.home), text: "Home"),
+                  Tab(icon: Icon(Icons.person_3_outlined), text: "Profile"),
+                  Tab(icon: Icon(Icons.settings), text: "Settings"),
+                ]
+            ),
+        ),
+      
+        body: TabBarView(
+            children: [
+              HomeFragment(),
+              ProfileFragment(),
+              SettingsFragment()
+        ]),
+      ),
     );
   }
 }

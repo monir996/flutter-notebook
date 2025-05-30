@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-// ----------------------- Main Branch  ==> Basic Structure ------------------
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -26,7 +26,29 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Flutter Notebook"), backgroundColor: Colors.lightGreenAccent),
+
+      // ----------------------- Branch 3  ==> AppBar Widget ------------------
+
+      appBar: AppBar(
+
+          title: Text("Flutter AppBar Widget", style: TextStyle(color: Colors.white),),
+          backgroundColor: Colors.indigo,
+          centerTitle: true,
+          elevation: 10,
+          leading: Icon(Icons.arrow_back, color: Colors.white),
+
+          actions: [
+            Icon(Icons.search, color: Colors.white),
+            SizedBox(width: 10),
+            Icon(Icons.notifications, color: Colors.white),
+          ],
+          actionsPadding: EdgeInsets.only(right: 20),
+
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(bottom: Radius.circular(30))
+          ),
+
+      ),
     );
   }
 }

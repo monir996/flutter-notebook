@@ -34,6 +34,7 @@ class HomeScreen extends StatelessWidget {
           title: Text("Flutter AppBar Widget", style: TextStyle(color: Colors.white),),
           backgroundColor: Colors.indigo,
           centerTitle: true,
+          //titleSpacing: 20,
           elevation: 10,
           leading: Icon(Icons.arrow_back, color: Colors.white),
 

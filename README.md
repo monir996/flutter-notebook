@@ -13,5 +13,6 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 3. AppBar Widget | `appbar-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/appbar-widget) |
 | ✅ 4. Container Widget | `container-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/container-widget) |
 | ✅ 5. SafeArea Widget | `safe-area-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/safe-area-widget) |
+| ✅ 6. SizedBox Widget | `sized-box-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/sized-box-widget) |
 | ✅ Row Widget | `row-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/row-widget) |
 | ✅ Column Widget | `column-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/column-widget) |

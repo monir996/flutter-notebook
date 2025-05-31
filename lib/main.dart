@@ -18,44 +18,37 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomeScreen(),
+      home: HomeScreen(),
     );
   }
 }
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  HomeScreen({super.key});
+
+  // ----------------------- Controller for PageView Widget ------------------
+  PageController pageController = PageController();
+
+  final List<Widget> _list = [HomeFragment(), ProfileFragment(), SettingsFragment()];
 
   @override
   Widget build(BuildContext context) {
 
-    // ----------------------- Branch 12 ==> TabBar Widget ------------------
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
 
-        appBar: AppBar(
-            title: Text("TabBar Widget"),
-            backgroundColor: Colors.lightGreenAccent,
-            centerTitle: true,
+    return Scaffold(
 
-            bottom: TabBar(
-                //isScrollable: true,
-                tabs: [
-                  Tab(icon: Icon(Icons.home), text: "Home"),
-                  Tab(icon: Icon(Icons.person_3_outlined), text: "Profile"),
-                  Tab(icon: Icon(Icons.settings), text: "Settings"),
-                ]
-            ),
-        ),
-      
-        body: TabBarView(
-            children: [
-              HomeFragment(),
-              ProfileFragment(),
-              SettingsFragment()
-        ]),
-      ),
+      appBar: AppBar(title: Text("PageView Widget"), backgroundColor: Colors.lightBlue),
+
+      // ----------------------- Branch 13 ==> PageView Widget ------------------
+      body: PageView(
+        scrollDirection: Axis.horizontal,
+        controller: pageController,
+        children: _list,
+        onPageChanged: (index){
+          print("INDEX: $index");
+        },
+      )
+
     );
   }
 }

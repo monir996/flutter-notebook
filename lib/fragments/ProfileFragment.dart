@@ -6,7 +6,7 @@ class ProfileFragment extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.redAccent,
+      color: Colors.tealAccent,
       child: Center(
         child: Text("Profile"),
       ),

@@ -22,17 +22,32 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("SnackBar Widget", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
+      appBar: AppBar(title: Text("FloatingAction Button Widget", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
 
-      // ----------------------- Branch 15 ==> SnackBar Widget ------------------
-      body: Center(
-        child: TextButton(
-            onPressed: (){
-              mySnackBar("Delete Successful", context);
-            },
-            child: Text("Show SnackBar")
-        ),
+      // ----------------------- Branch 16 ==> FloatingActionButton Widget ------------------
+      body: Center(),
+
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          mySnackBar("Deleted", context);
+        },
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
+        child: Icon(Icons.add)
       ),
+      //floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+
+
+
+      // floatingActionButton: FloatingActionButton.extended(
+      //     onPressed: (){
+      //       mySnackBar("Deleted", context);
+      //     },
+      //     backgroundColor: Colors.blue,
+      //     foregroundColor: Colors.white,
+      //     label: Text("Floating"),
+      //     icon: Icon(Icons.add)
+      // ),
 
     );
   }

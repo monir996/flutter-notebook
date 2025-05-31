@@ -15,6 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
       // ----------------------- Main Branch  ==> Basic Structure ------------------
 
+      body: Center(),
     );
   }
 }

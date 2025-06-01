@@ -23,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
       drawer: Drawer(
         child: ListView(
           children: [
+
             DrawerHeader(
                 padding: EdgeInsets.zero,
                 child: UserAccountsDrawerHeader(
@@ -62,7 +63,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: Text("About"),
                 trailing: Icon(Icons.info_outlined)
             )
-
 
           ],
         ),

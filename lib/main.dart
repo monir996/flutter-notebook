@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
 class HomeScreen extends StatelessWidget {
    HomeScreen({super.key});
 
+   // ----------------------- SnackBar -------------------
   mySnackBar(message, context){
     return ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(message))
@@ -56,7 +57,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text("Flutter GridView Widget"), backgroundColor: Colors.lightGreenAccent),
 
-      // ----------------------- Branch 7 ==> GridView Widget ------------------
+      // ----------------------- Branch 22 ==> GridView Widget ------------------
       body: GridView.builder(
 
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(

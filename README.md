@@ -30,5 +30,6 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 20. Drawer Widget | `drawer-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/drawer-widget) |
 | ✅ 21. ListView Widget | `listview`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/listview) |
 | ✅ 22. GridView Widget | `gridview`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/gridview) |
+| ✅ 23. Animated Text Widget | `animated-text`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/animated-text) |
 
 

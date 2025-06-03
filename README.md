@@ -33,5 +33,6 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 23. Animated Text Widget | `animated-text`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/animated-text) |
 | ✅ 24. FittedBox Widget | `fitted-box`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/fitted-box) |
 | ✅ 25. AutoSizeText Widget | `auto-size-text`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/auto-size-text) |
+| ✅ 26. Card Widget | `card-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/card-widget) |
 
 

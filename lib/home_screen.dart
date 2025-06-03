@@ -11,11 +11,28 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Flutter Notebook", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
+      appBar: AppBar(title: Text("Card Widget", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
 
-      // ----------------------- Main Branch  ==> Basic Structure ------------------
+      // ----------------------- Branch 26 ==> Card Widget ------------------
 
-      body: Center(),
+      body: Center(
+
+        child: Card(
+
+          color: Colors.red,
+          elevation: 10,
+          shadowColor: Colors.red,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+
+          child: Container(
+            alignment: Alignment.center,
+            height: 250,
+            width: 250,
+            child: Text("This is Card", style: TextStyle(color: Colors.white, fontSize: 16.0)),
+          ),
+
+        ),
+      ),
     );
   }
 }

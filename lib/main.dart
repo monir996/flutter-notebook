@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook/sliver_app_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,6 +31,8 @@ class HomeScreen extends StatelessWidget {
 
       // ----------------------- Branch 3  ==> AppBar Widget ------------------
 
+
+      // ----------------------- Normal AppBar ------------------
       appBar: AppBar(
 
           title: Text("Flutter AppBar Widget", style: TextStyle(color: Colors.white),),
@@ -48,7 +52,17 @@ class HomeScreen extends StatelessWidget {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(bottom: Radius.circular(30))
           ),
+      ),
 
+      // ----------------------- Stylish Sliver AppBar ------------------
+      body: Center(
+        child: CupertinoButton.filled(
+            color: CupertinoColors.activeBlue,
+            child: Text("Sliver AppBar"),
+            onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> SliverAppBarDemo()));
+            }
+        ),
       ),
     );
   }

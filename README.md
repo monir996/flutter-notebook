@@ -36,6 +36,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 26. Card Widget | `card-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/card-widget) |
 | ✅ 27. Stack Widget | `stack-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/stack-widget) |
 | ✅ 28. DropDownButton Widget | `dropdown-button`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/dropdown-button) |
+| ✅ 29. PopupMenuButton Widget | `popup-menu`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/popup-menu) |
 
 
 

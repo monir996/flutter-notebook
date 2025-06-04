@@ -8,14 +8,27 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+
+  bool status = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Flutter Notebook", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
+      appBar: AppBar(title: Text("Switch Widget", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
 
-      // ----------------------- Main Branch  ==> Basic Structure ------------------
+      // ----------------------- Branch 32 ==> Switch Widget ------------------
 
-      body: Center(),
+      body: Center(
+        child: Switch(
+            value: status,
+            activeColor: Colors.red,
+            onChanged: (val){
+              setState(() {
+                status = val;
+              });
+            }
+        ),
+      ),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({super.key});
@@ -11,11 +12,16 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Flutter Notebook", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
+      appBar: AppBar(title: Text("Google Fonts", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
 
-      // ----------------------- Main Branch  ==> Basic Structure ------------------
+      // ----------------------- Branch 34 ==> Google Fonts Package ------------------
 
-      body: Center(),
+      body: Center(
+        child: Text(
+          "Coding Bloom",
+          style: GoogleFonts.acme(color: Colors.red, fontSize: 30, fontWeight: FontWeight.w700),
+        ),
+      ),
     );
   }
 }

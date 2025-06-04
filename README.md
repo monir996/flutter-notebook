@@ -39,6 +39,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 29. PopupMenuButton Widget | `popup-menu`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/popup-menu) |
 | ✅ 30. RadioButton Widget | `radio-button`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/radio-button) |
 | ✅ 31. CheckBox Widget | `checkbox`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/checkbox) |
+| ✅ 32. Switch Widget | `switch-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/switch-widget) |
 
 
 

@@ -41,6 +41,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 31. CheckBox Widget | `checkbox`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/checkbox) |
 | ✅ 32. Switch Widget | `switch-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/switch-widget) |
 | ✅ 33. FontAwesome Widget | `font-awesome`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/font-awesome) |
+| ✅ 34. GoogleFonts Widget | `google-fonts`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/google-fonts) |
 
 
 

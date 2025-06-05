@@ -56,6 +56,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 46. Slideable Widget | `slideable-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/slideable-widget) |
 | ✅ 47. Video Player Widget | `video-player`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/video-player) |
 | ✅ 48. Table Widget | `table-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/table-widget) |
+| ✅ 49. Data Table Widget | `data-table`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/data-table) |
 
 
 

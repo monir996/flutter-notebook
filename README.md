@@ -59,6 +59,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 49. Data Table Widget | `data-table`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/data-table) |
 | ✅ 50. Shared Preference | `shared-preference`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/shared-preference) |
 | ✅ 51. Aspect Ratio Widget | `aspect-ratio`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/aspect-ratio) |
+| ✅ 52. MediaQuery | `media-query`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/media-query) |
 
 
 

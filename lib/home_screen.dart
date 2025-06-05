@@ -13,11 +13,47 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      appBar: AppBar(title: Text("Flutter Notebook", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
+      appBar: AppBar(title: Text("Data Table Widget", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
 
-      // ----------------------- Main Branch  ==> Basic Structure ------------------
+      // ----------------------- Branch 49 ==> Data Table Widget ------------------
 
-      body: Center(),
+      body: Center(
+
+        child: DataTable(
+            columns: [
+              DataColumn(label: Text("ID", style: TextStyle(fontWeight: FontWeight.bold))),
+              DataColumn(label: Text("Name", style: TextStyle(fontWeight: FontWeight.bold))),
+              DataColumn(label: Text("City", style: TextStyle(fontWeight: FontWeight.bold))),
+            ],
+
+            rows: [
+              DataRow(cells: [
+                DataCell(Text("01")),
+                DataCell(Text("Abdullah")),
+                DataCell(Text("Dhaka")),
+              ]),
+
+              DataRow(cells: [
+                DataCell(Text("02")),
+                DataCell(Text("Monir")),
+                DataCell(Text("Dhaka")),
+              ]),
+
+              DataRow(cells: [
+                DataCell(Text("03")),
+                DataCell(Text("Habiba")),
+                DataCell(Text("Savar")),
+              ]),
+
+              DataRow(cells: [
+                DataCell(Text("04")),
+                DataCell(Text("Orin")),
+                DataCell(Text("Gazipur")),
+              ]),
+            ]
+
+        ),
+      ),
     );
   }
 }

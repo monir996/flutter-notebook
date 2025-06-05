@@ -51,6 +51,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 41. CupertinoActivity Indicator Widget | `cupertino-indicator`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/cupertino-indicator) |
 | ✅ 42. ModalBottomSheet Widget | `modal-bottom-sheet`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/modal-bottom-sheet) |
 | ✅ 43. CupertinoActionSheet Widget | `cupertino-action-sheet`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/cupertino-action-sheet) |
+| ✅ 44. AlertDialog Widget | `alert-dialog`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/alert-dialog) |
 
 
 

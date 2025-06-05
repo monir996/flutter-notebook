@@ -46,6 +46,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 36. Slider Widget | `slider-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/slider-widget) |
 | ✅ 37. TextField Widget | `text-field`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/text-field) |
 | ✅ 38. AutoComplete Widget | `auto-complete`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/auto-complete) |
+| ✅ 39. Stepper Widget | `stepper-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/stepper-widget) |
 
 
 

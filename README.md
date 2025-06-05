@@ -55,6 +55,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 45. Cupertino AlertDialog Widget | `cupertino-alert-dialog`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/cupertino-alert-dialog) |
 | ✅ 46. Slideable Widget | `slideable-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/slideable-widget) |
 | ✅ 47. Video Player Widget | `video-player`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/video-player) |
+| ✅ 48. Table Widget | `table-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/table-widget) |
 
 
 

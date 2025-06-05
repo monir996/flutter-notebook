@@ -48,6 +48,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 38. AutoComplete Widget | `auto-complete`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/auto-complete) |
 | ✅ 39. Stepper Widget | `stepper-widget`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/stepper-widget) |
 | ✅ 40. Url Launcher Widget | `url-launcher`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/url-launcher) |
+| ✅ 41. CupertinoActivity Indicator Widget | `cupertino-indicator`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/cupertino-indicator) |
 
 
 

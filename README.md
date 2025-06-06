@@ -64,6 +64,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 54. Location | `location`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/location) |
 | ✅ 55. Device Info | `device-info`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/device-info) |
 | ✅ 56. Future Builder | `future-builder`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/future-builder) |
+| ✅ 57. Provider State Management | `provider-state-management`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/provider-state-management) |
 
 
 

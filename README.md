@@ -62,6 +62,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 52. MediaQuery | `media-query`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/media-query) |
 | ✅ 53. Layout Builder Widget | `layout-builder`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/layout-builder) |
 | ✅ 54. Location | `location`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/location) |
+| ✅ 55. Device Info | `device-info`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/device-info) |
 
 
 

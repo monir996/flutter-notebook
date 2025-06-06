@@ -60,6 +60,8 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 50. Shared Preference | `shared-preference`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/shared-preference) |
 | ✅ 51. Aspect Ratio Widget | `aspect-ratio`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/aspect-ratio) |
 | ✅ 52. MediaQuery | `media-query`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/media-query) |
+| ✅ 53. Layout Builder Widget | `layout-builder`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/layout-builder) |
+
 
 
 

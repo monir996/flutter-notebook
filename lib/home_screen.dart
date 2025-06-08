@@ -12,11 +12,13 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      appBar: AppBar(title: Text("Flutter Notebook", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
+      appBar: AppBar(title: Text("Firebase Email SignIn", style: TextStyle(color: Colors.white)), backgroundColor: Colors.blue),
 
-      // ----------------------- Main Branch  ==> Basic Structure ------------------
+      // ----------------------- Branch 60 ==> Firebase Email SignIn ------------------
 
-      body: Center(),
+      body: Center(
+        child: Text("Welcome to Home", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.blue)),
+      ),
     );
   }
 }

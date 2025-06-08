@@ -66,6 +66,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 56. Future Builder | `future-builder`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/future-builder) |
 | ✅ 57. Provider State Management | `provider-state-management`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/provider-state-management) |
 | ✅ 58. Provider Api Calling | `provider-api-calling`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/provider-api-calling) |
+| ✅ 59. Firebase Google SignIn | `firebase-google-signin`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/firebase-google-signin) |
 
 
 

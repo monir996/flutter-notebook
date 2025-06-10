@@ -85,13 +85,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   CupertinoButton.filled(
                       padding: EdgeInsets.symmetric(horizontal: 50, vertical: 5),
                       onPressed: _increaseCounter,
-                      child: Text("+", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold))
+                      //child: Text("+", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold))
+                      child: Icon(Icons.add, color: Colors.white, size: 24)
                   ),
 
                   CupertinoButton.filled(
                       padding: EdgeInsets.symmetric(horizontal: 50, vertical: 5),
                       onPressed: _decreaseCounter,
-                      child: Text("-", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold))
+                      //child: Text("-", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold))
+                      child: Icon(Icons.remove, color: Colors.white, size: 24),
                   ),
                 ],
               ),

@@ -69,6 +69,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 59. Firebase Google SignIn | `firebase-google-signin`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/firebase-google-signin) |
 | ✅ 60. Firebase Email Authentication | `firebase-email-signin`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/firebase-email-signin) |
 | ✅ 61. Device Preview Package | `device-preview`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/device-preview) |
+| ✅ 62. Hive Local Storage | `hive-local-storage`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/hive-local-storage) |
 
 
 

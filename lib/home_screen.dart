@@ -30,7 +30,8 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
 
             Text(
-              "${context.watch<CounterProvider>().count}",
+
+              "${context.watch<CounterProvider>().count}", //-------------- Showing counter value
               style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold, color: Colors.blue)
             ),
 

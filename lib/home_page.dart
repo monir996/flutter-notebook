@@ -14,10 +14,10 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
-          title: Text('Flutter Notebook')
+          title: Text('Navigation')
       ),
 
-        // ----------------------- Main Branch  ==> Basic Structure ------------------
+        // ----------------------- Branch 63 ==> Navigation and Pass Data ------------------
       body: Center(),
     );
   }

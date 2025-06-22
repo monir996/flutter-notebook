@@ -14,11 +14,13 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
-          title: Text('Flutter Notebook')
+          title: Text('Native Splash Screen')
       ),
 
-        // ----------------------- Main Branch  ==> Basic Structure ------------------
-      body: Center(),
+        // ----------------------- Branch 64 ==> Native Splash Screen ------------------
+      body: Center(
+        child: Text('Welcome to Home', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.blue)),
+      ),
     );
   }
 }

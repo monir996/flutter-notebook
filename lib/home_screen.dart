@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
           return Column(
             children: [
               Slidable(
-                key: ValueKey(items[index]),
+                key: Key(UniqueKey().toString()),
 
                 // ----------------------- Start Action Pane ------------------
                 startActionPane: ActionPane(

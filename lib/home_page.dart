@@ -14,10 +14,10 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
-          title: Text('Flutter Notebook')
+          title: Text('Flutter API CALL')
       ),
 
-        // ----------------------- Main Branch  ==> Basic Structure ------------------
+        // ----------------------- Branch (Later)  ==> API CALL ------------------
       body: Center(),
     );
   }

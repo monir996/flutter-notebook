@@ -39,15 +39,16 @@ class NetworkCaller {
       } else {
         // Failed
         final decodedJson = jsonDecode(response.body);
-
         return NetworkResponse(
           isSuccess: false,
           statusCode: response.statusCode,
           errorMessage: decodedJson['data'] ?? _defaultErrorMessage,
         );
 
+
       }
     } catch (e) {
+
       return NetworkResponse(
         isSuccess: false,
         statusCode: -1,

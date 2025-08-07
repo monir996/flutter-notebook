@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook/data/models/product_model.dart';
 import 'package:flutter_notebook/data/service/network_caller.dart';
 
 class HomePage extends StatefulWidget {
@@ -8,15 +9,16 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
+// ----------------------- Branch 67  ==> API CALL ------------------
+
 class _HomePageState extends State<HomePage> {
 
-  final _url = 'https://fakestoreapi.com/products';
+  final _url = 'http://35.73.30.144:2008/api/v1/ReadProduct';
   bool _isDataInProgress = false;
-  List<dynamic> _itemList = [];
+  List<ProductModel> _itemList = [];
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     getItems();
   }
@@ -30,8 +32,15 @@ class _HomePageState extends State<HomePage> {
     NetworkResponse response = await NetworkCaller.getRequest(url: _url);
 
     if(response.isSuccess){
+
+      List<ProductModel> list = [];
+
+      for(Map<String, dynamic> jsonData in response.body!['data']) {
+        list.add(ProductModel.fromJson(jsonData));
+      }
+      _itemList = list;
+
       setState(() {
-        _itemList = response.body as List;
         _isDataInProgress = false;
       });
     }
@@ -53,7 +62,7 @@ class _HomePageState extends State<HomePage> {
           title: Text('Flutter API CALL')
       ),
 
-        // ----------------------- Branch (Later)  ==> API CALL ------------------
+
       body: Visibility(
         visible: !_isDataInProgress,
         replacement: Center(child: CircularProgressIndicator(),),
@@ -62,16 +71,19 @@ class _HomePageState extends State<HomePage> {
           itemCount: _itemList.length,
           itemBuilder: (context,index){
 
-            final item = _itemList[index];
+            final product = _itemList[index];
+
             return ListTile(
-              leading: item['image'] != null
-                  ?
-                  Image.network(item['image'], width: 100, height: 100,)
-                  : Icon(Icons.broken_image, color: Colors.grey,),
+              leading: Image.network(
+                product.image,
+                width: 100,
+                height: 100,
+                errorBuilder: (context, error, stackTrace) => Icon(Icons.broken_image)
+              ),
 
-              title: Text(item['title'], style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600),),
+              title: Text(product.title, style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600),),
 
-              subtitle: Text('Price: ${item['price'].toString()}', style: TextStyle(fontWeight: FontWeight.w600),),
+              subtitle: Text('Price: ${product.price.toString()}', style: TextStyle(fontWeight: FontWeight.w600),),
             );
           },
         ),

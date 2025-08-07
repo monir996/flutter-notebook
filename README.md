@@ -72,6 +72,7 @@ A personal collection of Flutter practice topics, each stored in a separate Git 
 | ✅ 62. Hive Local Storage | `hive-local-storage`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/hive-local-storage) |
 | ✅ 63. Navigation and Pass Data | `navigation`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/navigation) |
 | ✅ 64. Native Splash Screen | `native_splash_screen`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/native_splash_screen) |
+| ✅ 67. Demo API Call | `67-api-call`               | [View Branch](https://github.com/monir996/flutter-notebook/tree/67-api-call) |
 
 
 
